@@ -10,9 +10,9 @@ function CupheadSheetMusic() {
                     <br />
                     AVAILABLE NOW
                     </h3>
-                <img className='marchingband-picture' src={MarchingBand} alt='Marching Band Picture' />
+                <img className='marchingband-picture' src={MarchingBand} alt='Marching Band Group' />
                 <h3 className='cupheadsheetmusic-website txt-center'>
-                    <a className='website-text' href='https://cupheadnotes.com/' target='_blank'>cupheadnotes.com</a>
+                    <a className='website-text' href='https://cupheadnotes.com/' target='_blank' rel='noreferrer'>cupheadnotes.com</a>
                 </h3>
             </div>
         </div>

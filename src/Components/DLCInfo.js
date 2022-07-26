@@ -24,11 +24,11 @@ function DLCInfo() {
                                 Cuphead community to set sail for this new adventure, experience the 
                                 story of brand new playable character Ms. Chalice, and take on some 
                                 of the biggest and wildest boss battles we've ever created! As of right 
-                                this moment, you can tuck in to this second helping of Cuphead action on <strong><a className='DLC-text' href='https://www.xbox.com/en-US/games/store/cuphead-the-delicious-last-course/9pn2schcv9q0' target='_blank'>Xbox One</a></strong>
-                                , <strong><a className='DLC-text' href='https://www.nintendo.com/store/products/cuphead-the-delicious-last-course-switch/' target='_blank'>Nintendo Switch</a></strong>
-                                , <strong><a className='DLC-text' href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEADDLC000000' target='_blank'>Playstation 4</a></strong>
-                                , <strong><a className='DLC-text' href='https://store.steampowered.com/app/1117850/Cuphead__The_Delicious_Last_Course/' target='_blank'>Steam</a></strong>
-                                , <strong><a className='DLC-text' href='https://www.gog.com/en/game/cuphead_the_delicious_last_course' target='_blank'>GOG</a></strong>.
+                                this moment, you can tuck in to this second helping of Cuphead action on <strong><a className='DLC-text' href='https://www.xbox.com/en-US/games/store/cuphead-the-delicious-last-course/9pn2schcv9q0' target='_blank' rel='noreferrer'>Xbox One</a></strong>
+                                , <strong><a className='DLC-text' href='https://www.nintendo.com/store/products/cuphead-the-delicious-last-course-switch/' target='_blank' rel='noreferrer'>Nintendo Switch</a></strong>
+                                , <strong><a className='DLC-text' href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEADDLC000000' target='_blank' rel='noreferrer'>Playstation 4</a></strong>
+                                , <strong><a className='DLC-text' href='https://store.steampowered.com/app/1117850/Cuphead__The_Delicious_Last_Course/' target='_blank' rel='noreferrer'>Steam</a></strong>
+                                , <strong><a className='DLC-text' href='https://www.gog.com/en/game/cuphead_the_delicious_last_course' target='_blank' rel='noreferrer'>GOG</a></strong>.
                             </p>
                             <p className='DLC-text'>
                                 We're especially thrilled to say that the game is avaliable at the tasty price 
@@ -36,7 +36,7 @@ function DLCInfo() {
                             </p>
                             <div className='cuphead-gif-and-button'>
                                 <img className='cuphead-gif' src={CupheadJump} alt='Cuphead Jump Gif' />
-                                <a className='dlc-button bold-800' href='https://cupheadgame.com/dlc.html' target='_blank'>Read More...</a>
+                                <a className='dlc-button bold-800' href='https://cupheadgame.com/dlc.html' target='_blank' rel='noreferrer'>Read More...</a>
                             </div>
                         </div>
                     </div>

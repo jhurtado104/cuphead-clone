@@ -97,27 +97,27 @@ function PurchaseArea() {
                     </div>
                     <div className='platforms-list'>
                         <div className='platform-logo xbox-logo'>
-                            <a href='https://www.xbox.com/en-us/games/store/cuphead/9njrx71m5x9p' target='_blank'>
+                            <a href='https://www.xbox.com/en-us/games/store/cuphead/9njrx71m5x9p' target='_blank' rel='noreferrer'>
                                 <img src={Xbox} alt='Xbox Logo' />
                             </a>
                         </div>
                         <div className='platform-logo switch-logo'>
-                            <a href='https://www.nintendo.com/store/products/cuphead-switch/' target='_blank'>
+                            <a href='https://www.nintendo.com/store/products/cuphead-switch/' target='_blank' rel='noreferrer'>
                                 <img src={Switch} alt='Switch Logo' />
                             </a>
                         </div>
                         <div className='platform-logo ps-logo'>
-                            <a href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEAD000000000' target='_blank'>
+                            <a href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEAD000000000' target='_blank' rel='noreferrer'>
                                 <img src={PS4} alt='PS4 Logo'/>
                             </a>
                         </div>
                         <div className='platform-logo steam-logo'>
-                            <a href='https://store.steampowered.com/app/268910/Cuphead/' target='_blank'>
+                            <a href='https://store.steampowered.com/app/268910/Cuphead/' target='_blank' rel='noreferrer'>
                                 <img src={Steam} alt='Steam Logo' />
                             </a>
                         </div>
                         <div className='platform-logo gog-logo'>
-                            <a href='https://www.gog.com/game/cuphead' target='_blank'>
+                            <a href='https://www.gog.com/game/cuphead' target='_blank' rel='noreferrer'>
                                 <img src={GOG} alt='GOG Logo' />
                             </a>
                         </div>
@@ -138,27 +138,27 @@ function PurchaseArea() {
                     </div>
                     <div className='platforms-list'>
                         <div className='platform-logo xbox-logo'>
-                            <a href='https://www.xbox.com/en-us/games/store/cuphead/9njrx71m5x9p' target='_blank'>
+                            <a href='https://www.xbox.com/en-us/games/store/cuphead/9njrx71m5x9p' target='_blank' rel='noreferrer'>
                                 <img src={Xbox} alt='Xbox Logo' />
                             </a>
                         </div>
                         <div className='platform-logo switch-logo'>
-                            <a href='https://www.nintendo.com/store/products/cuphead-switch/' target='_blank'>
+                            <a href='https://www.nintendo.com/store/products/cuphead-switch/' target='_blank' rel='noreferrer'>
                                 <img src={Switch} alt='Switch Logo' />
                             </a>
                         </div>
                         <div className='platform-logo ps-logo'>
-                            <a href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEAD000000000' target='_blank'>
+                            <a href='https://store.playstation.com/en-us/product/UP8062-CUSA20499_00-CUPHEAD000000000' target='_blank' rel='noreferrer'>
                                 <img src={PS4} alt='PS4 Logo' />
                             </a>
                         </div>
                         <div className='platform-logo steam-logo'>
-                            <a href='https://store.steampowered.com/app/268910/Cuphead/' target='_blank'>
+                            <a href='https://store.steampowered.com/app/268910/Cuphead/' target='_blank' rel='noreferrer'>
                                 <img src={Steam} alt='Steam Logo' />
                             </a>
                         </div>
                         <div className='platform-logo gog-logo'>
-                            <a href='https://www.gog.com/game/cuphead' target='_blank'>
+                            <a href='https://www.gog.com/game/cuphead' target='_blank' rel='noreferrer'>
                                 <img src={GOG} alt='GOG Logo' />
                             </a>
                         </div>
