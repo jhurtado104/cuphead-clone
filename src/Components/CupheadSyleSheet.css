@@ -1,0 +1,1006 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #2C2C2C;
+    z-index: 1;
+}
+
+.body {
+    overflow: auto;
+}
+
+.section-wrapper {
+    padding: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.flexrow {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li {
+    display: block;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-800 {
+    font-weight: 800;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h4 {
+    font-size: 1.4em;
+    line-height: 1.4;
+    font-weight: 500;
+    padding-bottom: 0.8em;
+    word-spacing: 5px;
+}
+
+/*---------------------------*/
+/*-  Purchase Area Styling  -*/
+/*---------------------------*/
+
+.main-site-background {
+    background: #f5f5f5;
+}
+
+.header {
+    margin-bottom: 2em;
+}
+
+.main-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    max-width: 380px;
+    width: 60%;
+}
+
+.main-nav-wrapper .main-nav {
+    width: 30%;
+    text-align: right;
+}
+
+nav.main-nav ul li img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.dlc-sticker-image {
+    margin-right: 3%;
+}
+
+.pulse {
+    display: inline-block;
+    animation-name: pulse;
+    -webkit-animation-name: pulse;
+    animation-duration: 0.35s;
+    -webkit-animation-duration: 0.35s;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+.pulse:hover {
+    animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+}
+
+@keyframes pulse {
+    25% {
+        transform: scale(1.05);
+    }
+    75% {
+        transform: scale(0.95);
+    }
+}
+
+@-webkit-keyframes pulse {
+    25% {
+        transform: scale(1.05);
+    }
+    75% {
+        transform: scale(0.95);
+    }
+}
+
+.game-cover {
+    padding: 5%;
+    width: 100%;
+    position: relative;
+}
+
+.half-scrn {
+    width: 50%;
+}
+
+.ddwtd-background {
+    background: #FFCF10;
+}
+
+.dlc-background {
+    background: #a0e1c0;
+}
+
+.game-logo {
+    padding-bottom: 20px;
+}
+
+.game-image {
+    padding-bottom: 20px;
+}
+
+.ddwtd-cover-button {
+    color: #ece8e7;
+    background: #3f3451;
+    padding: 0.7em 1em;
+    border-radius: 0.25em;
+    transition: background 0.2s;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    border: none;
+}
+
+.ddwtd-cover-button:hover {
+    background: #525252;
+    transition: background 0.2s;
+    color: white;
+    cursor: pointer;
+}
+
+.dlc-cover-button {
+    color: #ece8e7;
+    background: #3f3451;
+    padding: 0.7em 1em;
+    border-radius: 0.25em;
+    transition: background 0.2s;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    border: none;
+}
+
+.dlc-cover-button:hover {
+    background: #525252;
+    transition: background 0.2s;
+    color: white;
+    cursor: pointer;
+}
+
+.fullWidth {
+    padding: 10px;
+    position: relative;
+}
+
+.platforms-row {
+    padding-bottom: 20px;
+}
+
+.platforms-row-small {
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.platform-row-small-logo {
+    max-height: 30px;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+}
+
+.riseUp {
+    opacity: 0;
+    transform: translate(0, 20px);
+    animation-name: riseUp;
+    -webkit-animation-name: riseUp;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0, 0.47, 0.4, 0.89);
+    -webkit-animation-timing-function: cubic-bezier(0, 0.47, 0.4, 0.89);
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes riseUp {
+    from {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes riseUp {
+    from {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+#ddwtd-overlay {
+    visibility: hidden;
+    background: rgba(255, 209, 24, 0.98);
+}
+
+#dlc-overlay {
+    visibility: hidden;
+    background: rgba(160, 225, 192, 0.98);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.close-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.closebtn {
+    font-size: 1.4em;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.closebtn:hover {
+    color: red;
+}
+
+.overlay-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1240px;
+    padding: 30px;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay-logo {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 440px;
+}
+
+.overlay-logo img {
+    object-fit: contain;
+}
+
+.choose-wrapper {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.purple {
+    color: #433650;
+}
+
+.platforms-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.platforms-list:last-child {
+    margin-bottom: 0;
+}
+
+.platform-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.platform-logo a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.platform-logo img {
+    height: 60px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 450px) {
+    .half-scrn {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .overlay-logo {
+        margin-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+        max-width: 440px;
+        width: auto;
+    }
+
+    .choose-wrapper {
+        font-size: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .platforms-list {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 0;
+    }
+
+    .platform-logo {
+        margin-bottom: 35px;
+        width: 100%;
+    }
+
+    .platform-logo img {
+        max-width: 250px;
+        object-fit: contain;
+    }
+
+    .platform-logo.steam-logo img {
+        max-width: 200px;
+    }
+
+    .platform-logo.gog-logo img {
+        max-width: 100px;
+    }
+}
+
+@media only screen and (min-width: 0) and (max-width: 599px) {
+    .overlay-logo {
+        margin-bottom: 20px;
+        padding-right: 40px;
+        padding-left: 40px;
+        max-width: 440px;
+        width: auto;
+    }
+
+    .choose-wrapper {
+        font-size: 15px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .platforms-list {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-bottom: 0;
+    }
+
+    .platform-logo {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .platform-logo img {
+        max-width: 200px;
+        object-fit: contain;
+    }
+
+    .platform-logo.steam-logo img {
+        max-width: 150px;
+    }
+
+    .platform-logo.gog-logo img {
+        max-width: 60px;
+    }
+}
+
+/*---------------------*/
+/*-  Trailer Styling  -*/
+/*---------------------*/
+
+.trailer-background {
+    background: #b1e2be;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    -webkit-animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 0.7s;
+    -webkit-animation-duration: 0.7s;
+    animation-delay: 0.25s;
+    -webkit-animation-delay: 0.25s;
+}
+
+.trailer-wrapper {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    position: relative;
+    padding-top: 56.25%;
+}
+
+.trailer-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------*/
+/*-  DLC Info Styling  -*/
+/*----------------------*/
+
+.dlc-info-background {
+    background: #ece8e8;
+}
+
+.DLC-picture-section {
+    width: 57.083%;
+    position: relative;
+    margin-right: 3%;
+}
+
+.DLC-image {
+    max-width: 100%;
+    height: auto;
+    display: inherit;
+}
+
+.DLC-description-section {
+    width: 39.916%;
+    position: relative;
+}
+
+.DLC-header {
+    color: #3f3451;
+    line-height: 1.2;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 2.8em;
+}
+
+.DLC-text {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    font-size: 1.1em;
+    padding-bottom: 0.6em;
+}
+
+a.DLC-text:hover {
+    color: red;
+}
+
+.cuphead-gif-and-button {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    position: relative;
+    justify-content: left;
+}
+
+.cuphead-gif {
+    width: 106px;
+}
+
+.dlc-button {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #3f3451;
+    color: #ece8e7;
+    font-size: 1.4em;
+    padding: 0.8em 1em;
+    border-radius: 0.25em;
+    transition: background 0.2s;
+    vertical-align: middle;
+    border: 1px solid #acacac;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 1em;
+    letter-spacing: 0.03em;
+}
+
+.dlc-button:hover {
+    background: #525252;
+    transition: background 0.2s;
+    color: white;
+    border: 1px solid #525252;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .DLC-area {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .DLC-picture-section {
+        width: 100%;
+        position: relative;
+    }
+
+    .DLC-description-section {
+        width: 100%;
+        position: relative;
+    }
+
+    .DLC-header {
+        font-size: 2.6em;
+    }
+    
+    .cuphead-gif-and-button {
+        justify-content: center;
+    }
+}
+
+/*--------------------*/
+/*-  Awards Styling  -*/
+/*--------------------*/
+
+.awards-background {
+    background: #FFCF10;
+}
+
+.game-header {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    line-height: 1.12;
+    padding-bottom: 0.4em;
+    position: relative;
+    width: 100%;
+}
+
+.game-video {
+    width: 47%;
+    padding-top: 26.25%;
+    margin-bottom: 1em;
+    position: relative;
+    margin-right: 3%;
+}
+
+.game-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.game-description {
+    margin-right: 0;
+    width: 48.5%;
+}
+
+.game-description-text {
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    padding-bottom: 0.6em;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.heading-center {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.awards-heading {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.header-line {
+    width: 100%;
+    height: 2px;
+    background: #eabe30;
+}
+
+.award-header-logo {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.award-image {
+    max-width: 200px;
+    min-width: 160px;
+}
+
+img.award-image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.award-row {
+    border-bottom: 2px solid #eabe30;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    font-size: 14px;
+}
+
+.annie-row ul.award-info {
+    margin-left: -22px;
+}
+
+.responsive {
+    width: 100%;
+    position: relative;
+}
+
+ul.award-info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 160px;
+}
+
+ul.award-info li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.annie-logo {
+    max-width: 150px;
+}
+
+.award-sub-group {
+    width: 50%;
+}
+
+.award-sub-group.txt-right {
+    border-right: 2px solid #eabe30;
+    padding-right: 20px;
+}
+
+.award-sub-group.txt-left {
+    padding-left: 20px;
+}
+
+img.large-award {
+    max-width: 240px;
+}
+
+.txt-right ul.award-info {
+    justify-content: flex-end;
+}
+
+.txt-left ul.award-info {
+    justify-content: flex-start;
+}
+
+.medium-size-award {
+    max-width: 130px;
+}
+
+.last-row {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 340px) {
+
+    .game-header {
+        font-size: 1em;
+    }
+    
+}
+
+@media screen and (max-width: 830px) {
+    
+    .award-row {
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .award-row ul {
+        flex-wrap: wrap;
+    }
+
+    ul.award-info {
+        border-bottom: 2px solid #eabe30;
+        padding: 20px;
+    }
+
+    .last-row .txt-left ul.award-info {
+        border-bottom: none;
+    }
+    
+    .annie-row ul.award-info {
+        margin: 0;
+    }
+
+    ul.award-info li.annie-logo-area {
+        order: 1;
+    }
+
+    .annie-row ul li img.annie-logo {
+        max-width: 120px;
+    }
+
+    ul.award-info li.txt-right {
+        order: 2;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    ul.award-info li.txt-left {
+        order: 3;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+    .award-sub-group.txt-right, .award-sub-group.txt-left {
+        padding: 0;
+        border: none;
+    }
+
+    img.large-award {
+        max-width: 180px;
+    }
+
+    .award-sub-group {
+        width: 100%;
+    }
+
+    .txt-right ul.award-info {
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .txt-left ul.award-info {
+        justify-content: center;
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    
+    .game-video {
+        width: 100%;
+        position: relative;
+        padding-top: 54%;
+    }
+
+    .game-description {
+        width: 100%;
+        position: relative;
+    }
+
+    .game-description-text {
+        font-size: 18px;
+    }
+
+}
+
+/*---------------------------------*/
+/*-  Cuphead Sheet Music Styling  -*/
+/*---------------------------------*/
+
+.cuphead-sheet-music-background {
+    background-color: lightblue;
+}
+
+.cuphead-sheet-music-header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.marchingband-picture {
+    display: block;
+    margin: 0 auto;
+}
+
+.marchingband-picture img{
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .marchingband-picture {
+        max-width: 100%;
+    }
+    
+}
+
+.cupheadsheetmusic-website {
+    padding-bottom: 1.5em;
+}
+
+.website-text {
+    text-decoration: none;
+    color: #2C2C2C;
+    font-size: 2em;
+    letter-spacing: 0.02em;
+    font-family: 'Comic Neue', cursive;
+}
+
+@media screen and (max-width: 800px) {
+
+    .cuphead-sheet-music-header {
+        font-size: 1.60em;
+    }
+
+    .website-text {
+        font-size: 1.60em;
+    }
+    
+}
+
+.website-text:hover {
+    color: red;
+}
+
+/*-----------------------*/
+/*-  Logo Line Styling  -*/
+/*-----------------------*/
+
+.logo-row-background {
+    background-color: #f5f5f5;
+}
+
+.logo-line-area {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+}
+
+.logo-line {
+    width: 100%;
+    display: block;
+}
+
+/*----------------------------*/
+/*-  Copyright Area Styling  -*/
+/*----------------------------*/
+
+.copyright-area {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1240px;
+}
+
+.copyright-text {
+    padding-bottom: 7px;
+    margin-top: 0;
+    font-size: 12.5px;
+    margin-bottom: 0;
+    color: #2C2C2C;
+    line-height: 1.4;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .section-wrapper {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .cuphead-sheet-music-header{
+        font-size: 1.5em;
+    }
+
+    .marchingband-picture {
+        width: 100%;
+    }
+
+    .cupheadsheetmusic-website {
+        font-size: 0.8em;
+    }
+    
+}
