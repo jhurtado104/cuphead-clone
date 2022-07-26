@@ -51,7 +51,7 @@ function PurchaseArea() {
                 <div className='flexrow header'>
                     <div className='main-nav-wrapper'>
                         <div className='logo'>
-                            <a href='Cuphead.js'>
+                            <a href='https://cupheadclonedemo.netlify.app/'>
                                 <img src={Logo} alt='Cuphead Logo' />
                             </a>
                         </div>
